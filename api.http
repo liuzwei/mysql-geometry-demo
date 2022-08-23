@@ -1,0 +1,25 @@
+### 华熙LIVE中心 116.287561,39.917259
+### 万寿路地铁 116.301323,39.913801
+### 五棵松地铁 116.28059,39.913939
+POST http://localhost:7070/company/save
+Content-Type: application/json
+
+{
+  "latitude": "116.28059",
+  "longitude": "39.913939",
+  "name": "五棵松地铁"
+}
+
+
+
+
+###
+GET http://localhost:7070/company/1561583227093041153
+Accept: application/json
+
+###
+
+
+http://localhost:7070/company/nearby?longitude=116.283788&latitude=39.916651&kilometers=5000
+
+
